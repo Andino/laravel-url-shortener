@@ -7,7 +7,9 @@
 
   
 
-This is an laravel application to make a shortnener url with an base url provider, counts his visits and crawl the data for the basic url
+This is an laravel application to make a shortnener url with an base url provider, counts his visits and crawl the data for the basic url tested with wikipedia URL. Url's used in the testing:
+- https://es.wikipedia.org/wiki/Assassin%27s_Creed
+- https://en.wikipedia.org/wiki/Genghis_Khan
 
   
 
@@ -29,15 +31,13 @@ we put the database value cause we're going to store the jobs in the db
 ## QUEUE LISTENER
 To listen the queue jobs we need to run the command `php artisan queue:workisan queue:work` after that the queues is going to start being listened by the console:
 
-![Console image](https://share.getcloudapp.com/E0uKpkpd)
+[Console image](https://share.getcloudapp.com/E0uKpkpd)
 
+## POSTMAN COLLECTION
+ https://www.getpostman.com/collections/1fe387d8bf1e871c9991
 
-   
+## Screen recording of the Functionality
+
+https://share.getcloudapp.com/4guPqogj
 
   
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-  
-
-## Learning Laravel
