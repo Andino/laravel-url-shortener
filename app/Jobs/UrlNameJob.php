@@ -36,9 +36,10 @@ class UrlNameJob implements ShouldQueue
     public function handle()
     {
         $url = Url::find($this->urlRecord);
-        $site = simplexml_load_file($url->url);
+        $site = file_get_contents($url->url);
+        $title = preg_match('/<title[^>]*>(.*?)<\/title>/ims', $site, $match) ? $match[1] : null;
         if (!empty($site)) {
-            $url->title = $site->head->title;
+            $url->title = $title;
             $url->save();
         }
     }
