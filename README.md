@@ -38,6 +38,7 @@ To listen the queue jobs we need to run the command `php artisan queue:workisan 
 
 ## Screen recording of the Functionality
 
-https://share.getcloudapp.com/4guPqogj
+Testing the Services: https://share.getcloudapp.com/4guPqogj
+Testing the Jobs Queueing: https://share.getcloudapp.com/JrunR0jk
 
   
