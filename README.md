@@ -13,7 +13,7 @@
 
   
 
-This is an laravel application to make a shortnener url with an base url provider, counts his visits and crawl the data for the basic url tested with wikipedia URL. Url's used in the testing:
+A laravel application to make shortener urls with an base url provider, counts his visits and crawl the data for the basic url tested with wikipedia URL. Url's used in the testing:
 
 - https://es.wikipedia.org/wiki/Assassin%27s_Creed
 
